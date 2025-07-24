@@ -16,7 +16,6 @@
 #Kalan Bulma(Mod Alma)
 27%%5
 
-
 # Fonksiyon tanimi: iki sayiyi toplayan
 topla <- function(a, b) { #function(a, b) ifadesi, fonksiyonun iki parametre aldigini belirtir.
   sonuc <- a + b
@@ -29,7 +28,6 @@ kare_al <- function(x){
   return(x^2)
 }
 kare_al(4)
-
 
 print("Merhaba R ogreniyorum.")
 #Turkce karakter kullanmamaya dikkat edin!
