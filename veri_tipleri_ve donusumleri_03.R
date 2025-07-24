@@ -21,4 +21,4 @@ as.character(390)
 as.logical(5)
 as.complex(1)
 #Dikkat: Donusturme basarisiz olursa NA (eksik deger) donebilir.
-as.numeric("abc")  # NA ve uyar?? verir
+as.numeric("abc")  # NA ve uyari verir
