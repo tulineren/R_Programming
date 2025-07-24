@@ -26,7 +26,7 @@ cinsiyet <- factor(c("Kadin", "Erkek", "Erkek", "Kadin"))
 print(cinsiyet)
 
 #Rastgele Veri Uretme
-# 10 tane rastgele sayi ??ret(tekrarsiz) (1 ile 100 aras??nda)
+# 10 tane rastgele sayi uret(tekrarsiz) (1 ile 100 aras??nda)
 rastgele_sayilar <- sample(1:100, 10)
 print(rastgele_sayilar)
 sample(1:10, 5, replace = TRUE)  # Ayni sayi birden fazla gelebilir.
@@ -35,7 +35,7 @@ veri_norm <- rnorm(10, mean = 50, sd = 10)
 print(veri_norm)
 runif(5, min = 0, max = 1) #Esit olasilikla belirli bir aralikta sayilar uretir.
 
-#Ornek: Say??lar?? Gorsellestirme
+#Ornek: Sayilari Gorsellestirme
 hist(rnorm(1000, mean = 50, sd = 10), col = "lightblue", main = "Normal Dagilim")
-#Bu kod, 1000 tane normal dagilmis sayi ??retir ve histogram cizer.
+#Bu kod, 1000 tane normal dagilmis sayi uretir ve histogram cizer.
 
