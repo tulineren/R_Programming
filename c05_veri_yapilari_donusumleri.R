@@ -8,7 +8,6 @@ my_list <- list(
 df <- as.data.frame(my_list)
 print(df)
 
-
 #Data Frame > List
 my_list <- as.list(df)
 print(my_list)
@@ -17,7 +16,6 @@ print(my_list)
 my_matrix <- matrix(1:9, nrow = 3, ncol = 3, byrow = TRUE)
 df_from_matrix <- as.data.frame(my_matrix)
 print(df_from_matrix)
-
 
 #Data Frame > Matrix
 my_df <- data.frame(
