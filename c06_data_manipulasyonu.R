@@ -17,13 +17,13 @@ ogrenciler %>%
 #Satir filtreleme
 ogrenciler %>%
   filter(sinif == "A")
-#Siralama(buyukten kucuge s??ralar)
+#Siralama(buyukten kucuge siralar)
 ogrenciler %>%
   arrange(yas)
 #Yeni Sutun Olusturma(not1 ve not2 ortalamasini hesaplayip yeni sutun olusturalim.
 ogrenciler %>%
   mutate(ortalama <- (not1 + not2) / 2)
-#Gruplama ??? group_by() + Ozetleme ??? summarise()(Her siniftaki ortalama not1 degerini hesaplayalim.)
+#Gruplama ??? group_by() + Ozetleme summarise()(Her siniftaki ortalama not1 degerini hesaplayalim.)
 ogrenciler %>%
   group_by(sinif) %>%
   summarise(ortalama_not1 = mean(not1))
