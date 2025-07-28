@@ -55,4 +55,5 @@ setwd("C:\\Users\\teren\\Documents")
 #Bu komuttan sonra R artik bu klasoru varsayilan dosya konumu olarak gorur.
 #read.csv(), read_excel() gibi dosya okuma fonksiyonlarinda tam yol yazmana gerek kalmaz.
 
+getwd() # "get working directory". Su anda calismakta oldugun dizini(klasoru) gosterir.
 
