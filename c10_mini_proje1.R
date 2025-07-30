@@ -13,7 +13,3 @@ df <- df %>%
 df %>% 
   filter(durum == "Gecti")
 write.csv(df, "ogrenci_not_analizi.csv", row.names = FALSE)
-
-
-
-
