@@ -6,7 +6,8 @@ enerji <- 100
 motivasyon <- 100
 kod_kalitesi <- 0
 
-olaylar <- c("Hata mesaji aldin(bug)", "Mentor seni tebrik etti", "Gece boyunca kod yazdin", "StackOverflow???da cozum buldun")
+olaylar <- c("Hata mesaji aldin(bug)", "Mentor seni tebrik etti", 
+             "Gece boyunca kod yazdin", "StackOverflow???da cozum buldun")
 
 gunluk_olaylar <- sample(olaylar, 2)
 
