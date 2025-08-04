@@ -13,9 +13,9 @@ ggplot(data = veri, aes(x = kategori, y = deger))+
 ggplot(mtcars, aes(x = wt, y = mpg, color = factor(cyl))) + #mtcars: Bu hazir veri seti kullaniliyor (R icinde var).
   geom_point(size = 3) + #size = 3: Noktalarin boyutu 3 birim olur.
   labs(
-    title = "Agirlik ve Yakit Tuketimi ??liskisi",
-    x = "A????rl??k (wt)",
-    y = "Mil Ba????na Galon (mpg)",
+    title = "Agirlik ve Yakit Tuketimi Iliskisi",
+    x = "Agirlik (wt)",
+    y = "Mil Basina Galon (mpg)",
     color = "Silindir"
   ) +
   theme_minimal() #Grafigin arka plan temasini sade hale getirir.
@@ -79,6 +79,7 @@ ggplot(ogrenciler, aes(x = yas, y = puan)) +
   theme_minimal()
 #facet_wrap(~ cinsiyet, nrow = 1)  # yatayda yan yana
 #facet_wrap(~ cinsiyet, ncol = 1)  # dikeyde alt alta
+
 
 
 
